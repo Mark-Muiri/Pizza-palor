@@ -31,22 +31,39 @@ class Pizza{
          } else if (this.crust == "Double Crust"){
              return 300;
          }
-          else if (this.crust == "glutten Free Crust"){
-            return 300;
-         } else if (this.crust == "glutten Free Crust"){
-          return 300;
+          else if (this.crust == "Cheesy Crust"){
+            return 150;
+         } 
+         else if (this.crust == "Thin & Crust"){
+           return 300;
          } else{
             return 0;
         }
      }
      toppinsPrice(){
-         if(this.toppings == "extra chcken"){
+         if(this.toppings == "extra Beef"){
              return 200;
-         }else if (this.toppings == "extra olives"){
+         }else if (this.toppings == "extra Ham"){
             return 200;
-        }else if (this.toppings == "extra cheese"){
+        }else if (this.toppings == "extra Cheese Mozerella"){
             return 200;
-        }else if (this.toppings == "extra pepperoni"){
+        }else if (this.toppings == "extra Bacon"){
+            return 200;
+        }else if (this.toppings == "extra Sausages"){
+            return 200;
+        }else if (this.toppings == "extra Chicken"){
+            return 200;
+        }else if (this.toppings == "extra Spinach"){
+            return 200;
+        }else if (this.toppings == "extra Onion"){
+            return 200;
+        }else if (this.toppings == "extra Mushrooms"){
+            return 200;
+        }else if (this.toppings == "extra Tomatoes"){
+            return 200;
+        }else if (this.toppings == "extra Jalapenoes"){
+            return 200;
+        }else if (this.toppings == "extra Olives"){
             return 200;
         } else{
             return 0;
