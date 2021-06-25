@@ -1,6 +1,8 @@
 .body{
     background-color: black
-}
+} 
+  
+ /* NAVIGATION BAR */
 .navbar {
   background: rgba(0,0,0,0.4) !important;
 }
@@ -44,6 +46,8 @@
     -ms-transform: scale(1.2);
     transform: scale(1.2);
   }
+
+  /* LANDING PAGE */
   .landing{
     background-image: url('https://images.unsplash.com/photo-1589906493606-a6ca2a06078b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHwwfDB8YmxhY2t8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
     background-position: center center;
@@ -91,6 +95,7 @@
       transform: translateY(-45px);
     }
   }
+  /* MENU */
   .menu {
    
    background-color: black;
@@ -111,17 +116,8 @@
   .card-header{
       color: red;
     }
-
-
-footer{
-    text-align: center;
-    padding-top: 30px;
-    font-family: 'Delius Swash Caps', cursive;
-  }
-  footer p{
-        margin-top: 10px;
-    }
-
+    
+/* CONTACT SECTION */
 .contact{
     background-image: url('https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__480.jpg');
     background-position: center center;
@@ -172,6 +168,7 @@ button{
     margin-bottom: 20px;
     border-radius: 50px !important;
   }
+  /* FOOTER */
   
   footer{
     text-align: center;
