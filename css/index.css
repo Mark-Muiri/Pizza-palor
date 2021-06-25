@@ -1,3 +1,5 @@
+  /* GENERAL BODY*/
+
 .body{
     background-color: black
 } 
@@ -98,7 +100,7 @@
   /* MENU */
   .menu {
    
-   background-color: black;
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -116,6 +118,20 @@
   .card-header{
       color: red;
     }
+    .nav-link{
+        color: red;
+        size: 20px;
+        font-family: 'Fredericka the Great', cursive;
+    }
+     
+    /* BILLING AND PRICING SECTION */
+.billing{
+    background-image: url('https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645__340.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
     
 /* CONTACT SECTION */
 .contact{
