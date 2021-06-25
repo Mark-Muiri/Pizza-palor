@@ -45,31 +45,18 @@
     transform: scale(1.2);
   }
   .landing{
-    background-image: url('https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60');
+    background-image: url('https://images.unsplash.com/photo-1589906493606-a6ca2a06078b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHwwfDB8YmxhY2t8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #f71505;
+    color: #ffda00;
     text-align: center;
     padding-top:11%; 
     
     font-family: 'Fredericka the Great', cursive;
     font-size: 20px;
   }
-  .menu {
-   
-   background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #ffffff;
-    box-shadow: 0px 5px 8px #2E1C13;
-  }
-  .menu h2 {
-    font-family: 'Shrikhand', cursive;
-    color: #ffda00;
-    font-size: 40px;
-  }
+
 
 .landing h1{
     padding: 2px;
@@ -103,4 +90,21 @@
     60% {
       transform: translateY(-45px);
     }
+  }
+  .menu {
+   
+   background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0px 5px 8px #ffda00;
+  }
+  .menu h2 {
+    font-family: 'Shrikhand', cursive;
+    color: #ffda00;
+    font-size: 40px;
+  }
+  .col-md-10{
+      background-size: cover;
   }
