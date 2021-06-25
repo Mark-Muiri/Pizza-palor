@@ -155,15 +155,29 @@ footer{
     width: 30%;
     margin-left: 18%;
     margin-right: 30px;
-    color: #f7e705;
+    
   }
   #MERGE0{
     width: 30%;
-    margin-left: 18%;
-    margin-right: 30px;
-    color: #f7e705;
+   
   }
   #comment{
     margin-left: 20%;
     width: 60%;
+  }
+
+button{
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px !important;
+  }
+  
+  footer{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Delius Swash Caps', cursive;
+  }
+  footer p{
+    margin-top: 10px;
   }
