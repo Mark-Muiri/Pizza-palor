@@ -45,14 +45,14 @@
         <img src="images/logo (1).png" alt="logo" id="logo"><br><br>
         <h1>Nasty Pizza</h1> 
         <h1> In Pizza we crust!</h1>
-        <p>Why did the pizza start his own business?<br>
+        <p>Why did the pizza start its own business?<br>
             He wanted to make some dough.</p>
         <div class="mouse-click"></div>
         <a href="#about-us"><img src="images/mouse_click.png" alt=" mouse_click" id="mouse-click"></a> 
       </div>
 
       <div class="container-fluid menu">
-        <div class="col-md-12">
+        <div class="col-md-25">
           <div class="row">
             <div class="col-md-10">
               <h2>Menu</h2>
@@ -399,6 +399,43 @@
               </div>
             </div>
 
+  <div class="container-fluid contact">
+    <h2>CONTACT US</h2>
+
+    <form id="form34A" method="POST">
+      <div class="form-group form-inline">
+        <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+        <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary col-md-1">Send</button>
+      <div class="form">
+      <a href="signup.html">signup</a>
+    </div>
+    </form>
+  </div>
+  <footer>
+    <img src="twitter.png" alt="twitter">
+    <img src="facebook.png" alt="facebook">
+    <img src="g_plus.png" alt="g_plus">
+    <img src="skype.png" alt="skype">
+    <img src="stumble_upon.png" alt="stumble_upon">
+    <p>NASTY PIZZA</p>
+    <p id="date"></p>
+
+<script>
+const d = new Date();
+document.getElementById("date").innerHTML = d.getFullYear();
+</script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"> </script>
+<script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"e71bed4d6ae5a7c984dfe28b0","lid":"dbf7e27685","uniqueMethods":true}) })</script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+<script src="js/script.js .js"></script>
+
+  </footer>
     
 </body>
 </html>
