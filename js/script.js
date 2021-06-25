@@ -33,7 +33,9 @@ class Pizza{
          }
           else if (this.crust == "glutten Free Crust"){
             return 300;
-        } else{
+         } else if (this.crust == "glutten Free Crust"){
+          return 300;
+         } else{
             return 0;
         }
      }
