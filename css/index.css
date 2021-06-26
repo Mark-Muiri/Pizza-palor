@@ -141,11 +141,11 @@
   }
   .about-us {
     text-align: center;
-    color: #4a4741;
+    color: #ffda00;
     border-radius: 10px;
     border-top: solid #9f9f9f 2px;
     border-bottom: solid #9f9f9f 2px;
-    background: #f5faf9;
+    background: black;
     font-family: 'Sarabun', sans-serif;
     font-weight: 700;
     font-size: 13px;
@@ -159,6 +159,7 @@
   #logo {
     float: left;
     padding: 1.5%;
+    size: 100%;
   }
   .founder-section {
     border-right: solid #9f9f9f 1px;
